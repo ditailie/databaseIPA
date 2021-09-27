@@ -1,0 +1,296 @@
+/* color #f88e54 */
+@keyframes run {
+  0% { left: -98%;}
+  100%{ left: 80%;
+      
+  }
+}
+.install_body{
+    background:#000000 !important;
+}
+.install_body .success{
+        background: #f88e54 !important;
+    margin: 0 auto !important;
+    width: 28.9% !important; 
+    top: 20px;
+    position: relative;
+}
+
+
+.top_logo_install{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+
+.container_install{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #f88e54;
+    padding: 100px 20px;
+    border-radius: 15px;
+    padding-bottom: 50px;
+
+}
+.button_install{
+        width: 100%;
+    border-radius: 15px;
+    background: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0px;
+    padding: 10px;
+}
+
+
+.container_install input{
+        border-radius: 15px;
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+body{
+    margin:15px !important;
+        background-color: #f2f2f7 !important;
+}
+.row{
+    margin:0px !important;
+}
+
+.background_sidebar {
+    background:#000000;
+    padding:25px !Important;
+    border-radius:15px;
+    
+    
+        height: 96%;
+    position: fixed !important;
+    top: 2%;
+    bottom: 2%;
+}
+
+.top_logo{
+    text-align:center;
+}
+
+.border_light{
+    background-image: linear-gradient(
+90deg,hsla(0,0%,100%,0),#fff,hsla(0,0%,100%,0));
+height:1px;
+}
+
+.menu a:nth-last-child(1){
+    margin-bottom:0px;
+}
+.menu a{
+    color: #ffffff !important;
+    font-size: 18px;
+    background-color: hsla(0,0%,78%,.2);
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    transition:0.75s;
+    text-decoration: none !important;
+    align-items: center;
+    
+    
+}
+.menu a svg{
+    margin-right:15px;
+}
+.menu{
+    padding:20px 0px;
+}
+.hide{
+    display:none;
+}
+
+.menu a:hover .hide{
+    display:block !Important;
+     animation: run ease 0.75s;
+     position:absolute;
+     left:80%;
+     
+}
+
+
+.menu a:hover{
+    background: #f88e54;
+    
+ 
+}
+
+
+.background_all{
+        background: #000000;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+.background_all p{
+        text-align: right;
+    font-size: 18px;
+    margin-bottom:0px;
+}
+.background_all p span{
+       font-weight: bold;
+    font-size: 26px;
+    top: -5px;
+    position: relative; 
+}
+.top_row{
+    padding-top:35px;
+}
+.background_all .icon{
+        width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -38px;
+    background: #f88e54;
+    border-radius: 15px;
+    padding: 10px;
+    left: 35px;
+}
+
+
+.padding15{
+    padding:15px 0px;
+}
+
+.background_container{
+        background: #000000;
+    border-radius: 20px 20px 15px 15px;
+    
+}
+
+.background_container th {
+    background: #f88e54;
+    padding: 10px 10px;
+    font-size:19px;
+}
+
+.background_container th:nth-child(1) {
+    border-radius: 15px 0px 0px 0px;
+}
+
+.background_container th:nth-last-child(1) {
+    border-radius: 0px 15px 0px 0px;
+}
+.background_container td{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.background_container th,.background_container td,.background_container tr,.background_container a{
+    color:#ffffff !Important;
+}
+.background_container input::placeholder,.add_new input::placeholder{
+    color:#ffffff !Important;
+    opacity:1;
+}
+.background_container input,.background_container select{
+    background: unset;
+    color: #ffffff !important;
+    border: 0px;
+    border-bottom: 1px solid #ffffff;
+    padding: 0px;
+    left: -5px;
+    position: relative;
+    width: 100%;
+    font-weight: bold;
+}
+
+:focus-visible {
+    outline: unset !Important;
+}
+
+.add_new input{
+    width:100%;
+        background: unset;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0px;
+    color: #ffffff;
+}
+
+.add_new .row{
+    background: #000000;
+    padding: 20px 0px;
+    border-radius: 15px;
+}
+.add_new .col-md-6{
+    margin-bottom:20px;
+    float:left;
+}
+
+#add{
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+.add_new .btn_remove{
+        width: 100%;
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.add_new .col-md-4{
+    margin:0 auto;
+    width:100%;
+}
+
+#btnAddAction{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    font-weight:bold;
+}
+
+#dynamic_field{
+    width:100%;
+}
+.success{
+        margin-left: 17.666667%;
+            margin-top: 27px;
+    background: #000000;
+    color: #ffffff;
+    padding: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+.import_add{
+    background: #000000;
+    padding: 20px 0px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.import_add .input-large{
+    margin-top:5px;
+}
+.import_add button{
+        background: unset;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    padding: 8px;
+    font-weight: bold;
+}
